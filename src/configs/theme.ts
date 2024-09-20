@@ -14,6 +14,9 @@ const theme = extendTheme({
       'li::marker': {
         color: 'white',
       },
+      html: {
+        fontSize: { base: '12px', md: '16px', lg: '18px', xl: '20px' },
+      },
       body: {
         color: 'white',
       },

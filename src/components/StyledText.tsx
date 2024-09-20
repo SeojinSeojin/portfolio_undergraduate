@@ -2,7 +2,7 @@ import { Text, TextProps } from '@chakra-ui/react';
 import React from 'react';
 
 // Define the letters you want to style
-const highlightLetters = new Set(['G', 'A', 'T', 'C']);
+const highlightLetters = new Set(['G', 'A', 'T', 'C', 'g', 'a', 't', 'c']);
 
 // Helper function to determine if a character should be highlighted
 const isHighlighted = (char: string): boolean => {
@@ -41,7 +41,7 @@ const StyledText: React.FC<StyledTextProps> = ({ children, ...props }) => {
       {groupedText.map((segment, index) => (
         <span
           key={index}
-          style={{ color: segment.highlighted ? '#8fc3e1' : 'white' }}
+          style={{ color: segment.highlighted ? '#a1ddff' : 'white' }}
         >
           {segment.text}
         </span>

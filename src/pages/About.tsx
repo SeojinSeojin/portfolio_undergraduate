@@ -1,6 +1,5 @@
 import {
   Box,
-  Center,
   Flex,
   Grid,
   Image,
@@ -10,24 +9,30 @@ import {
   UnorderedList,
   VStack,
 } from '@chakra-ui/react';
+import ProfileImage from '../components/ProfileImage';
 import StyledText from '../components/StyledText';
 
 function About() {
   return (
     <>
-      <Image src='/assets/YES06675.webp' w='160px' />
-      <Center gap={2}>
-        <Link href='https://github.com/seojinseojin' target='_blank'>
-          <StyledText>[Github]</StyledText>
-        </Link>
-        <Link
-          href='https://www.linkedin.com/in/%EC%84%9C%EC%A7%84-%EA%B9%80-0363aa259/'
-          target='_blank'
-        >
-          <StyledText>[LinkedIn]</StyledText>
-        </Link>
-      </Center>
-      <VStack alignItems='stretch' w='min(96%, 860px)' gap={4}>
+      <ProfileImage src='/assets/YES06675.webp' />
+      <VStack
+        alignItems='stretch'
+        gap={4}
+        w={{
+          base: 'min(96%, 888px)',
+          lg: 'min(96%, 1000px)',
+          xl: 'min(96%, 1200px)',
+        }}
+      >
+        <StyledText>
+          Hello, I'm Seojin Kim, a student from Korea who believes in the
+          synergy between innovative ideas and engineering skills. I recently
+          graduated from Sungkyunkwan University with a degree in Computer
+          Education and an additional major in Applied Artificial Intelligence.
+          I am eager to further explore software engineering, with key interests
+          in programming languages, formal verification, and fault localization.
+        </StyledText>
         <Box>
           <StyledText as='h1' fontSize='2xl' fontWeight='bold'>
             EDUCATION
@@ -222,7 +227,7 @@ function About() {
             <StyledText>
               If you want more information, please refer to the
             </StyledText>
-            <Link href='/project'>
+            <Link href='/projects'>
               <StyledText> [Project Page]</StyledText>
             </Link>
           </Flex>

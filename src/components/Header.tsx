@@ -7,7 +7,11 @@ function Header() {
       justifyContent='space-between'
       alignItems='center'
       px={2}
-      w='min(96%, 860px)'
+      w={{
+        base: 'min(96%, 888px)',
+        lg: 'min(96%, 1000px)',
+        xl: 'min(96%, 1200px)',
+      }}
     >
       <StyledText as='h1' fontSize='3xl' fontWeight='bold'>
         SEOJIN KIM
