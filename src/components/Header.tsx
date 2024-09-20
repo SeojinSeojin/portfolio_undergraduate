@@ -23,6 +23,9 @@ function Header() {
         <Link href='/projects' px={2}>
           Projects
         </Link>
+        <Link href='/others' px={2}>
+          Others
+        </Link>
       </Flex>
     </Flex>
   );
