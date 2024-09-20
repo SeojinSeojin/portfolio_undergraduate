@@ -20,7 +20,7 @@ function Badge({ src, alt }: { src: string; alt: string }) {
       src={src}
       alt={alt}
       borderRadius={4}
-      h={{ base: '22px', md: '28px', xl: '36px' }}
+      h={{ base: '16px', sm: '28px', xl: '36px' }}
     />
   );
 }
@@ -61,7 +61,12 @@ function ProjectCard({
           </Tag>
         ))}
       </HStack>
-      <Grid templateColumns='152px auto' rowGap={2} columnGap={4} px={2}>
+      <Grid
+        templateColumns={{ base: '1fr', sm: '152px auto' }}
+        rowGap={2}
+        columnGap={4}
+        px={2}
+      >
         <StyledText>Description</StyledText>
         <StyledText>{desc}</StyledText>
         <StyledText>Role</StyledText>
@@ -81,7 +86,7 @@ function ProjectCard({
               <Image
                 src='/icons/github-mark-white.svg'
                 alt='GitHub'
-                w={{ base: '28px', lg: '32px' }}
+                w={{ base: '16px', sm: '24px', lg: '32px' }}
               />
             </Link>
           )}
@@ -90,7 +95,7 @@ function ProjectCard({
               <Image
                 src='/icons/youtube-app-white-icon.svg'
                 alt='Youtube'
-                w={{ base: '28px', lg: '32px' }}
+                w={{ base: '16px', sm: '24px', lg: '32px' }}
                 borderRadius={4}
               />
             </Link>

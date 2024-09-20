@@ -15,7 +15,13 @@ const theme = extendTheme({
         color: 'white',
       },
       html: {
-        fontSize: { base: '12px', md: '16px', lg: '18px', xl: '20px' },
+        fontSize: {
+          base: '9px',
+          sm: '14px',
+          md: '16px',
+          lg: '18px',
+          xl: '20px',
+        },
       },
       body: {
         color: 'white',
