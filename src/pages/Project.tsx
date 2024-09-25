@@ -84,7 +84,7 @@ function ProjectCard({
           {githubLink && (
             <Link href={githubLink} target='_blank'>
               <Image
-                src='/icons/github-mark-white.svg'
+                src='/icons/github-mark-black.svg'
                 alt='GitHub'
                 w={{ base: '16px', sm: '24px', lg: '32px' }}
               />
@@ -93,7 +93,7 @@ function ProjectCard({
           {videoLink && (
             <Link href={videoLink} target='_blank'>
               <Image
-                src='/icons/youtube-app-white-icon.svg'
+                src='/icons/youtube-app-black-icon.svg'
                 alt='Youtube'
                 w={{ base: '16px', sm: '24px', lg: '32px' }}
                 borderRadius={4}

@@ -2,7 +2,7 @@ import { extendTheme } from '@chakra-ui/react';
 
 const theme = extendTheme({
   config: {
-    initialColorMode: 'dark',
+    initialColorMode: 'white', //'dark',
     useSystemColorMode: false,
   },
   fonts: {
@@ -12,7 +12,7 @@ const theme = extendTheme({
   styles: {
     global: {
       'li::marker': {
-        color: 'white',
+        color: 'black', //color: 'white',
       },
       html: {
         fontSize: {
@@ -24,10 +24,10 @@ const theme = extendTheme({
         },
       },
       body: {
-        color: 'white',
+        color: 'black', //color: 'white',
       },
       'a:hover': {
-        bgColor: 'gray.700',
+        bgColor: 'gray.100', // 'gray.700',
       },
       img: {
         borderRadius: '50%',

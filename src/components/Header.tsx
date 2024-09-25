@@ -13,9 +13,11 @@ function Header() {
         xl: 'min(96%, 1200px)',
       }}
     >
-      <StyledText as='h1' fontSize='3xl' fontWeight='bold'>
-        SEOJIN KIM
-      </StyledText>
+      <Link href='/'>
+        <StyledText as='h1' fontSize='3xl' fontWeight='bold'>
+          SEOJIN KIM
+        </StyledText>
+      </Link>
       <Flex gap={4}>
         <Link href='/' px={2}>
           About

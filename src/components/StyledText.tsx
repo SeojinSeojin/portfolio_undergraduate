@@ -1,17 +1,20 @@
 import { Text, TextProps } from '@chakra-ui/react';
 import React from 'react';
+interface StyledTextProps extends TextProps {
+  children: string; // Expect the text to be passed as children
+}
 
+/*
 // Define the letters you want to style
 const highlightLetters = new Set(['G', 'A', 'T', 'C', 'g', 'a', 't', 'c']);
+
 
 // Helper function to determine if a character should be highlighted
 const isHighlighted = (char: string): boolean => {
   return highlightLetters.has(char);
 };
 
-interface StyledTextProps extends TextProps {
-  children: string; // Expect the text to be passed as children
-}
+
 
 const StyledText: React.FC<StyledTextProps> = ({ children, ...props }) => {
   const groupedText = React.useMemo(() => {
@@ -48,6 +51,12 @@ const StyledText: React.FC<StyledTextProps> = ({ children, ...props }) => {
       ))}
     </Text>
   );
+};
+
+*/
+
+const StyledText: React.FC<StyledTextProps> = ({ children, ...props }) => {
+  return <Text {...props}>{children}</Text>;
 };
 
 export default StyledText;

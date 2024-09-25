@@ -27,12 +27,10 @@ function Other() {
             MOVIES
           </StyledText>
           <UnorderedList>
-            <StyledText as='li' fontWeight='bold'>
-              GATTACA (1997)
-            </StyledText>
-            <StyledText as='li'>THE SHAWSHANK REDEMPTION (1994)</StyledText>
-            <StyledText as='li'>WHIPLASH (2014)</StyledText>
-            <StyledText as='li'>BIG FISH (2003)</StyledText>
+            <StyledText as='li'>GATTACA (1997)</StyledText>
+            <StyledText as='li'>The Shawshank Redemption (1994)</StyledText>
+            <StyledText as='li'>Whiplash (2014)</StyledText>
+            <StyledText as='li'>Big Fish (2003)</StyledText>
             <StyledText as='li'>
               Everything Everywhere All At Once (2022)
             </StyledText>

@@ -111,7 +111,9 @@ function About() {
           <StyledText as='h1' fontSize='2xl' fontWeight='bold'>
             TEACHING EXPERIENCE
           </StyledText>
-          <Grid templateColumns='60px auto auto'>
+          <Grid
+            templateColumns={{ base: '44px auto auto', md: '60px auto auto' }}
+          >
             <StyledText>2024</StyledText>
             <StyledText>
               GENERATIVE AI WORKSHOP for PROFESSORS, TA & Head Workshop
@@ -141,7 +143,9 @@ function About() {
           <StyledText as='h1' fontSize='2xl' fontWeight='bold'>
             AWARDS
           </StyledText>
-          <Grid templateColumns='60px auto auto'>
+          <Grid
+            templateColumns={{ base: '44px auto auto', md: '60px auto auto' }}
+          >
             <StyledText>2023</StyledText>
             <StyledText>
               🥇🥈 SKKU AI-EDUCATION CAPSTONE DESIGN COMPETITION

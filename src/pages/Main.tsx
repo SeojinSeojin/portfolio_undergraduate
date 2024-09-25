@@ -5,7 +5,7 @@ import Header from '../components/Header';
 function Main() {
   return (
     <Center
-      bgColor='gray.900'
+      bgColor='white' //'gray.900'
       flexDirection='column'
       gap={4}
       minH='100vh'
