@@ -10,7 +10,7 @@ function ProfileImage({ src }: { src: string }) {
           <StyledText>[Github]</StyledText>
         </Link>
         <Link
-          href='https://www.linkedin.com/in/%EC%84%9C%EC%A7%84-%EA%B9%80-0363aa259/'
+          href='https://www.linkedin.com/in/seojin-kim-0363aa259/'
           target='_blank'
         >
           <StyledText>[LinkedIn]</StyledText>

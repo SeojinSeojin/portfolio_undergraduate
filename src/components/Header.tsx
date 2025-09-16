@@ -15,7 +15,7 @@ function Header() {
     >
       <Link href='/'>
         <StyledText as='h1' fontSize='3xl' fontWeight='bold'>
-          SEOJIN KIM
+          Seojin Kim
         </StyledText>
       </Link>
       <Flex gap={4}>

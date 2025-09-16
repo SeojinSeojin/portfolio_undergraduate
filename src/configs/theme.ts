@@ -5,10 +5,6 @@ const theme = extendTheme({
     initialColorMode: 'white', //'dark',
     useSystemColorMode: false,
   },
-  fonts: {
-    heading: "'Victor Mono Variable', monospace",
-    body: "'Victor Mono Variable', monospace",
-  },
   styles: {
     global: {
       'li::marker': {
@@ -17,8 +13,8 @@ const theme = extendTheme({
       html: {
         fontSize: {
           base: '9px',
-          sm: '14px',
-          md: '16px',
+          sm: '12px',
+          md: '15px',
           lg: '18px',
           xl: '20px',
         },
@@ -27,7 +23,7 @@ const theme = extendTheme({
         color: 'black', //color: 'white',
       },
       'a:hover': {
-        bgColor: 'gray.100', // 'gray.700',
+        bgColor: 'gray.200', // 'gray.700',
       },
       img: {
         borderRadius: '50%',

@@ -1,5 +1,5 @@
 import { ChakraProvider } from '@chakra-ui/react';
-import '@fontsource-variable/victor-mono';
+import '@fontsource/ibm-plex-sans-condensed';
 
 import { RouterProvider } from 'react-router-dom';
 import router from './configs/router';
